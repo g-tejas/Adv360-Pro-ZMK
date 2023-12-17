@@ -82,21 +82,21 @@
 
         layer_MOD {
             bindings = <
-&bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1   &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &none                                                                                            &trans                  &none                &none       &none       &none  &none  &none
-&none       &main_email   &school_email  &none         &none         &none         &bootloader                                                                                      &bootloader             &macro_school_email  &none       &none       &none  &none  &none
-&none       &none         &none          &none         &none         &none         &none        &kp C_BRIGHTNESS_INC  &kp C_BRIGHTNESS_DEC      &kp C_VOLUME_UP  &kp C_VOLUME_DOWN  &rgb_ug RGB_MEFS_CMD 5  &none                &none       &none       &none  &none  &none
-&none       &none         &none          &none         &none         &none                                            &none                     &kp K_MUTE                                                  &none                &none       &none       &none  &none  &none
-&none       &none         &none          &none         &none                       &none        &none                 &none                     &none            &bl BL_TOG         &rgb_ug RGB_TOG                              &bl BL_INC  &bl BL_DEC  &none  &none  &none
+&bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1   &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &none                                                                                            &trans                  &none   &none       &none       &none  &none  &none
+&none       &main_email   &school_email  &none         &none         &none         &bootloader                                                                                      &bootloader             &trans  &none       &none       &none  &none  &none
+&none       &none         &none          &none         &none         &none         &none        &kp C_BRIGHTNESS_INC  &kp C_BRIGHTNESS_DEC      &kp C_VOLUME_UP  &kp C_VOLUME_DOWN  &rgb_ug RGB_MEFS_CMD 5  &none   &none       &none       &none  &none  &none
+&none       &none         &none          &none         &none         &none                                            &none                     &kp K_MUTE                                                  &none   &none       &none       &none  &none  &none
+&none       &none         &none          &none         &none                       &none        &none                 &none                     &none            &bl BL_TOG         &rgb_ug RGB_TOG                 &bl BL_INC  &bl BL_DEC  &none  &none  &none
             >;
         };
 
         layer_Hyper {
             bindings = <
-&trans  &trans            &trans             &trans  &trans    &trans       &trans                                      &trans  &trans  &trans          &trans          &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans
-&trans  &kp LT            &kp GT             &trans  &trans    &kp LG(TAB)  &trans                                      &trans  &trans  &trans          &kp UP_ARROW    &kp LEFT_BRACE        &kp RIGHT_BRACE        &trans
-&trans  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &trans  &trans    &kp GRAVE    &trans  &trans  &trans      &trans  &trans  &trans  &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW       &trans                 &trans
-&trans  &trans            &trans             &trans  &kp PLUS  &kp EQUAL                    &trans      &trans                  &trans  &trans          &trans          &trans                &trans                 &trans
-&trans  &trans            &trans             &trans  &trans                 &trans  &trans  &trans      &trans  &trans  &trans          &trans          &trans          &trans                &trans                 &trans
+&trans  &trans     &trans     &trans     &trans    &trans     &trans                                      &trans  &trans  &trans  &trans  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans
+&trans  &trans     &trans     &trans     &trans    &trans     &trans                                      &trans  &trans  &trans  &trans  &kp LEFT_BRACE        &kp RIGHT_BRACE        &trans
+&trans  &kp TILDE  &kp GRAVE  &kp MINUS  &kp PLUS  &kp EQUAL  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &trans
+&trans  &trans     &trans     &trans     &trans    &trans                     &trans      &trans                  &trans  &trans  &trans  &trans                &trans                 &trans
+&trans  &trans     &trans     &trans     &trans               &trans  &trans  &trans      &trans  &trans  &trans          &trans  &trans  &trans                &trans                 &trans
             >;
         };
     };
