@@ -38,11 +38,11 @@
         keypad {
             display-name = "remap";
             bindings = <
-&trans  &trans     &kp N2            &kp N3          &kp N4     &kp N5  &trans                                                   &mo 3      &kp N6  &kp N7  &kp N8           &kp KP_DIVIDE      &kp KP_MULTIPLY  &kp MINUS
-&trans  &trans     &trans            &trans          &trans     &trans  &none                                                    &none      &trans  &trans  &kp KP_N8        &trans             &kp KP_MINUS     &kp BSLH
-&trans  &trans     &kp LEFT_BRACKET  &kp LEFT_BRACE  &trans     &trans  &none     &kp LCTRL  &kp LALT      &kp LGUI   &kp RCTRL  &none      &trans  &trans  &kp RIGHT_BRACE  &kp RIGHT_BRACKET  &trans           &kp SQT
-&trans  &trans     &trans            &trans          &trans     &trans                       &kp HOME      &kp PG_UP                        &trans  &trans  &trans           &trans             &trans           &kp RSHFT
-&trans  &kp GRAVE  &kp CAPS          &kp LEFT        &kp RIGHT          &kp BSPC  &kp DEL    &kp END       &kp PG_DN  &kp ENTER  &kp KP_N0          &kp UP  &kp DOWN         &trans             &kp RBKT         &mo 2
+&trans  &trans  &trans            &trans          &trans  &trans  &trans                                                   &trans     &trans  &trans  &trans           &trans             &trans  &trans
+&trans  &trans  &trans            &trans          &trans  &trans  &trans                                                   &trans     &trans  &trans  &trans           &trans             &trans  &trans
+&trans  &trans  &kp LEFT_BRACKET  &kp LEFT_BRACE  &trans  &trans  &trans    &kp LCTRL  &kp LALT      &kp LGUI   &kp RCTRL  &trans     &trans  &trans  &kp RIGHT_BRACE  &kp RIGHT_BRACKET  &trans  &trans
+&trans  &trans  &trans            &trans          &trans  &trans                       &kp HOME      &kp PG_UP                        &trans  &trans  &trans           &trans             &trans  &trans
+&trans  &trans  &trans            &trans          &trans          &kp BSPC  &kp DEL    &kp END       &kp PG_DN  &kp ENTER  &kp KP_N0          &trans  &trans           &trans             &trans  &trans
             >;
         };
 
